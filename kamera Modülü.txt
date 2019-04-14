@@ -1,0 +1,13 @@
+#Kamera modülünü RaspberryPi baðladýp ve çalýþtýðýndan emin olmak için aþaðýdaki komut ile bir iki fotoðraf alabilirsiniz.
+   
+     raspistill -o output.jpg
+
+#Kamera modülünü python programýnda kullanabilme için ise “picamera” modülün kurmalýyýz. Ancak önce cv görsel ortamýnda çalýþmak için aþaðýdaki kodlarý yazýyoruz.
+    
+     source ~/.profile
+   
+      workon cv
+ 
+#“picamera” modülünü yüklemek için;
+     
+     pip install "picamera[array]"
